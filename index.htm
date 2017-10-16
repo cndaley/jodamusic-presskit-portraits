@@ -134,7 +134,8 @@
                         $(this.cssSelector.jPlayer).jPlayer("play");
                     },
                     playlistNext: function() {
-                       var index = (this.current + 1 < this.playlist.length) ? this.current + 1 : 0;                       this.playlistChange(index);
+                       var index = (this.current + 1 < this.playlist.length) ? this.current + 1 : 0;
+                       this.playlistChange(index);
                     },
                     playlistPrev: function () {
                         var index = (this.current - 1 >= 0) ? this.current - 1 : this.playlist.length - 1;
@@ -227,8 +228,10 @@
   <div id="wrapper">
     <div id="header">
       <h1><img src="assets/img/presskit_title.png" class="round" alt="Joseph Daley" width="620" height="60" /></h1>
-
     </div>
+    <div class="continuetop">
+     <a href="../"><b>Home</b></a>  |  <a href="http://josephdaley.com"><b>JosephDaley.com</b></a>
+    </div>  
     <div class="content">
       <h2>&nbsp;Portraits -  Wind, Thunder And Love - Press Kit</h2>
       <div class="col">
@@ -320,7 +323,7 @@
         </div>
       </div>
       <div class="col" id="jukebox">
-        <h2>Audio Sampler</h2>
+        <h2>Audio</h2>
         <div class="jp-audio">
           <div class="jp-type-playlist">
             <div id="jp_playlist_2" class="jp-playlist">
@@ -546,7 +549,7 @@
     </div>
 
     <div class="continue">
-      <a href="http://josephdaley.com">Continue to <b>JosephDaley.com</b> →</a>
+       <a href="../"><b>Home</b></a>  |  <a href="http://josephdaley.com"><b>JosephDaley.com</b></a>
     </div>
   </div>
 </body>

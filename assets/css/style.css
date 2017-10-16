@@ -337,6 +337,27 @@ div.continue{border-bottom:1px solid #ce8b45;
 			-khtml-border-radius: 10px 10px 0 0
 			-webkit-border-radius: 10px 10px 0 0
 			 }
+
+div.continuetop{
+		position:static;
+		text-align:center;
+}
+div.continuetop b{color:#fff;
+			  font-weight: bolder;
+}
+			 
+div.continuetop a{color:#fff;text-decoration:none; font-weight: normal;}
+div.continuetop a:hover{background:none}
+div.continuetop{
+			 font-size:16px;
+			 line-height:28px;
+			 background:#890419;
+			 width:100%;
+			 border-radius:   10px 10px 10px 10px;
+			-moz-border-radius:  0 0 10px 10px
+			-khtml-border-radius:  0 0 10px 10px
+			-webkit-border-radius:  0 0 10px 10px
+			 }
 			 
 /* Inline comma separted LIST */
 .listInlineCsv { }
